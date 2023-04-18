@@ -9,6 +9,7 @@
     /* border: 2px solid black; */
     max-height: 256px;
     /* max-width: 480px; */
+    margin-bottom: 10px;
     }
     .rightbox__box-heading{
         margin: 0rem 2.5rem ;
@@ -118,6 +119,9 @@ color: #999999;
         .calender{
             display: flex;
             align-items: center;
+        }
+        @media screen and (max-width;1000px) {
+            
         }
     /* -----------===------------------------------------ */
     @media screen and (max-width:420px) {

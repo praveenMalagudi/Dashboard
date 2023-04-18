@@ -24,7 +24,7 @@ const Charts = () => {
       <div id="chart">
         <Chart
         chartType="LineChart"
-        width="100%"
+        width="100vw"
         height="359px"
         data={data}
         options={options}

@@ -14,6 +14,7 @@
     .endbox{
         grid-template-columns:repeat(1,1fr);
         grid-row-gap:8px;
+        width: 100%;
         /* justify-content: space-between; */
         /* max-height: 0px; */
     }
@@ -23,7 +24,7 @@
      display: grid;
      grid-template-columns: 1fr;
      grid-row-gap:4px;
-
+      
     }
 }
 @media screen and (max-width:1000px) {
