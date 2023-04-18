@@ -1,0 +1,9 @@
+.Dashboard{
+    display: flex;
+    width: 100vw;
+}
+/* @media screen and (max-width:700px){
+    .Dashboard{
+        margin: 0;;
+    }
+} */

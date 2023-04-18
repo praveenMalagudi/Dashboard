@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  /* border: 2px solid red; */
+  flex: 0.2;
+  /* height: 100vh; */
+  background: #ddddddb1;
+  padding: 2.5rem 0 2.5rem 2.5rem;
+
+}
+.sidebar__left {
+  display: flex;
+  flex:0.3;
+  justify-content:space-between;
+  /* align-items: center; */
+  flex-direction: column;
+  position: relative;
+  background: #000000;
+  border-radius: 30px;
+  height: 944px;
+  /* max-width: 280px; */
+  padding-left:2rem;
+}
+
+.sidebar__left-heading {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: white;
+  margin: 60;
+  margin-top: 3.75rem;
+  /* margin-left:3.125rem; */
+}
+.sidebar__left-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  max-height: 270px;
+  max-width: 153px;
+  margin-top: 3.75rem;
+  /* margin-left: 3.125rem; */
+}
+/* ----------------option ---------- */
+.sidebar__left-option {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-bottom: 2.5rem;
+}
+.sidebar__left-option_icon {
+  max-height: 17.537px;
+  max-width: 17.536px;
+  border-radius: 0px;
+  color: #ffffff;
+  margin-right: 1.27rem;
+}
+.sidebar__left-option_title {
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffffd6;
+}
+.sidebar__left-end {
+  color: #ffffff;
+  /* position: absolute;
+  left: 0; */
+  /* margin-left: 50px; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+  margin-bottom: 60px;
+  /* margin-left: 0; */
+  width: 68px;
+}
+@media  screen and (max-width:700px) {
+    .sidebar{
+        display: none;
+    } 
+}
+@media screen and (max-width:1000px) {
+  .sidebar {
+    /* border: 2px solid red; */
+    flex: 0.2;
+    /* height: 100vh; */
+    background: #ddddddb1;
+    padding: 0rem 0 0rem 0rem;
+  
+  }
+  .sidebar__left-option_title {
+    padding-top: 5px;
+    font-family: "Montserrat";
+    font-size: 14px;
+    line-height: px;
+    color: #ffffffd6;
+  }
+  .sidebar__left-option_icon {
+    max-height: 12px;
+    max-width: 12px;
+    border-radius: 0px;
+    color: #ffffff;
+    margin-right: 0.8rem;
+  }
+  .sidebar__left-option {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-bottom: 2.5rem;
+  }
+}

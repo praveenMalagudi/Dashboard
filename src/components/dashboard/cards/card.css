@@ -1,0 +1,191 @@
+.card{
+    /* border: 2px solid black; */
+    /* height: 100vh; */
+    flex:0.8;
+    /* margin-left: 3rem; */
+    background: rgba(249, 243, 243, 0.694);
+    padding:3.75rem 3.75rem 5rem 3.75rem;
+}
+.card__right{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid rgb(204, 78, 78); */
+    flex:1;
+    /* max-height: 885px; */
+    /* flex:1; */
+    /* width: 1000px; */
+}
+.card__right-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+   
+}
+.card__right-navbar h5{
+/* border: 2px solid red; */
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 1.4rem;
+line-height: 29px;
+color: #000000;
+padding: 1px;
+/* margin:1rem */
+}
+.card__right-navbar_right{
+   display: flex;
+   /* flex: 0.4; */
+   align-items: center;
+   /* border: 2px solid black; */
+   justify-content: center;
+}
+.card__right-navbar_right-search_box{
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+    height: 1.875rem;
+    max-width:180px;
+    margin-right: 1.5rem;
+}
+ .card__right-navbar_right-search_box input{
+     border: none;
+     outline: none;
+     width: 150px;
+     color: #B0B0B0;
+     padding: 1px;
+     margin-left:3px;
+} 
+
+#search_box{
+font-family: 'Lato';
+font-weight: 400;
+font-size: 1rem;
+line-height: 17px;
+color: #131313;
+}
+
+#search-icon{
+width: 14px;
+height: 14px;
+color:#858585 ;
+padding-top:3px;
+}
+
+#notification{
+    height: 20px;
+    width: 18px;
+    border-radius: 0px;
+    margin-right: 1.5rem;
+     color: black;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+#profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:auto 4px;
+height: 30px;
+width: 30px;
+border-radius: 0px;
+}
+.card_chart{
+    margin-top:20px;
+}
+#menu_icon{
+    display: none;
+}
+@media screen and (max-width:700px){
+    .card{
+        height: 100vh;
+        width: 100%;
+        flex: 1;
+        padding:10px;
+    }
+    .card__right-navbar{
+        /* border: 1px solid red; */
+        align-items: center;
+        justify-content: space-between;
+    }
+        .card__right-navbar h5{
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 1.1rem;
+            }
+            .card__right-navbar_right-search_box{
+                /* border: 1px solid red; */
+                display: flex;
+                border-radius: 10px;
+                height: 1.5rem;
+                max-width:160px;
+                margin-right: 1rem;
+            }
+            #notification{
+                height: 20px;
+                width: 18px;
+                border-radius: 0px;
+                margin-right: 0.5rem;
+            }
+            #profile{
+            height: 23px;
+            width: 23px;
+            }
+            #search_box{
+                font-size: 0.9rem;
+                line-height: 12px;
+                height:15px;
+                max-width: 140px;
+                border-radius: 1px;
+                box-sizing: border-box;
+                padding:1px;
+                margin-left:4px;
+                }
+                #search-icon{
+                    padding-right:3px;
+                }
+                #menu_icon{
+                    display:block;
+                    padding-top: 3px;
+                }
+                #menu{
+                    height: 20px;
+                    width: 20px;
+                }
+}
+@media screen and (max-width:280px){
+.card{
+    padding:0.1rem;
+    width: 100vw;
+    /* height:100%; */
+}
+.card__right{
+    margin: 0;
+    width: 280px;
+}
+#menu{
+    height:13px;
+    width: 13px;
+}
+.card__right-navbar h5{
+    font-size: 13px;
+}
+#search_box{
+    height:14px;
+    max-width: 120px;
+    padding:1px;
+    margin-left:2px;
+    }
+    .card__right-navbar_right-search_box{
+        display: flex;
+        border-radius: 10px;
+        height: 1.4rem;
+        max-width:140px;
+        margin-right:0.5rem;
+    }
+    #profile{
+        height: 20px;
+        width: 20px;
+        }
+}
