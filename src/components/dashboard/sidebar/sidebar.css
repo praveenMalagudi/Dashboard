@@ -22,6 +22,7 @@
   height: 944px;
   width: 280px;
   padding-left:2rem;
+  position: relative;
 }
 
 .sidebar__left-heading {
@@ -30,7 +31,8 @@
   font-size: 36px;
   line-height: 44px;
   color: white;
-  margin-top: 3.75rem;
+  position: absolute;
+  top: 3.75rem;
   /* margin-left:3.125rem; */
 }
 .sidebar__left-nav {
