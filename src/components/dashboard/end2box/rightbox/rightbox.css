@@ -2,13 +2,13 @@
 .rightbox
 {
     /* height: 256px;
-    max-width: 480px;
+   
     flex:0.8; */
     border-radius: 20px;
     background: #FFFFFF;
     /* border: 2px solid black; */
-    max-height: 256px;
-    /* max-width: 480px; */
+    height: 256px;
+ 
     margin-bottom: 10px;
     }
     .rightbox__box-heading{
@@ -120,8 +120,10 @@ color: #999999;
             display: flex;
             align-items: center;
         }
-        @media screen and (max-width;1000px) {
-            
+        @media screen and (max-width:1000px) {
+            .rightbox{
+                height: 256px;
+            }
         }
     /* -----------===------------------------------------ */
     @media screen and (max-width:420px) {

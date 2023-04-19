@@ -9,7 +9,7 @@ width: 480px; */
 border-radius: 20px;
 background: #ffffffb2;
 /* margin-right:2.5rem ; */
-margin-right: 40px;
+/* margin-right: 40px; */
 max-height: 256px;
 /* max-width: 480px; */
 /* border:1px solid red */
@@ -119,6 +119,16 @@ color:#858585;
     display: flex;
 }
 /* ------------------------------------------------------ */
+@media screen and (max-width:1000px){
+    .leftbox{
+        /* border: 2px solid red; */
+        width: 100%;
+        margin-bottom:6px;
+        margin-right: 0px;
+        height: 256px;
+    }
+
+}
 @media screen and (max-width:700px) {
     .leftbox{
         /* border: 2px solid red; */
