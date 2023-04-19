@@ -1,5 +1,6 @@
 import React from 'react'
 import './sidebar.css'
+import {FiMenu} from 'react-icons/fi'
 import Option from './Option'
 import {FiPieChart} from  'react-icons/fi'
 import {BsTags} from 'react-icons/bs'

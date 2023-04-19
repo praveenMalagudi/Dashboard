@@ -11,9 +11,7 @@ const Charts = () => {
         ["Week 2", 200, 400],
         ["Week 3", 350, 220],
         ["Week 4", 403, 500],
-        
       ];
-      
      const options = {
         title: "Activities",
         curveType: "function",
@@ -28,7 +26,6 @@ const Charts = () => {
         height="359px"
         data={data}
         options={options}
-   
       />
       </div>
 
